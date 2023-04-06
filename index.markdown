@@ -11,7 +11,7 @@ We also have a blog section where we share personal stories, insights, and resea
 
 Whether you're feeling down or just looking for some inspiration, we hope that our website will be a helpful resource for you. Thank you for visiting Happiness Hacks - we're thrilled to have you here
 
-<p>Your happiness hack for today is: <i><span id="affirmation"></span></i></p>
+<div id="random-hack"></div>
 
 ## Resources
 
@@ -20,7 +20,19 @@ Check out our resources page for more information about the power of affirmation
 Thank you for visiting our site! We hope that our affirmations help you cultivate a positive mindset and live your best life.
 
 <script>
-const affirmations = {{ site.data.affirmations | jsonify }};
-const randomIndex = Math.floor(Math.random() * affirmations.length);
-document.getElementById("affirmation").innerHTML = affirmations[randomIndex];
+  fetch('/happinesshacks.yml')
+    .then(response => response.text())
+    .then(text => {
+      const hacks = jsyaml.load(text);
+      const randomIndex = Math.floor(Math.random() * hacks.length);
+      const hack = hacks[randomIndex];
+      const hackElement = document.createElement('div');
+      hackElement.innerHTML = `
+        <h2>${hack.title}</h2>
+        <p>${hack.description}</p>
+      `;
+      document.getElementById('random-hack').appendChild(hackElement);
+    });
 </script>
+
+
