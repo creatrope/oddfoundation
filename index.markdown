@@ -15,9 +15,9 @@ Whether you're feeling down or just looking for some inspiration, we hope that o
 
 ## Resources
 
-Check out our resources page for more information about the power of affirmations and how to incorporate them into your daily routine.
+Check out our resources page for more information about happiness hacks and how to incorporate them into your daily routine.
 
-Thank you for visiting our site! We hope that our affirmations help you cultivate a positive mindset and live your best life.
+Thank you for visiting our site! We hope that our happiness hacks help you cultivate a positive mindset and live your best life.
 
 <script>
   fetch('/happinesshacks.yml')
