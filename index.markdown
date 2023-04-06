@@ -1,20 +1,17 @@
 ---
 layout: page
-title: Welcome to The Affirmatron
+title: Welcome to Happiness Hacks
 ---
 
-#### _The World's First Fully Automated Affirmation Machine_
+We believe that everyone deserves to be happy and live a fulfilling life. Our mission is to provide you with the tools and resources you need to achieve happiness in your daily life.
 
-We believe that positive affirmations can have a powerful impact on our lives. By consistently repeating positive thoughts and beliefs, we can cultivate a more optimistic and confident mindset. You tell us your affirmation and we repeat it thousands of times to help make it come true! We believe that everyone deserves to feel confident, empowered, and inspired to live their best life.
+On this website, you will find a collection of happiness hacks - tips, tricks, and strategies that you can use to increase your happiness and well-being. Our hacks cover a wide range of topics, including mindfulness, gratitude, positive thinking, and self-care.
 
-### Today's Featured Affirmation
+We also have a blog section where we share personal stories, insights, and research on the science of happiness. Our team of happiness experts and contributors are passionate about spreading happiness and helping others to live their best lives.
 
-<p>Your affirmation for today is: <i><span id="affirmation"></span></i></p>
+Whether you're feeling down or just looking for some inspiration, we hope that our website will be a helpful resource for you. Thank you for visiting Happiness Hacks - we're thrilled to have you here
 
-### Submit An Affirmation for Processing
-Your affirmation will be submitted to our servers and repeated to the universe, 1000x within a week!
-
-{% include contact-form.html %}
+<p>Your happiness hack for today is: <i><span id="affirmation"></span></i></p>
 
 ## Resources
 
