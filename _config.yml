@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Affirmatron
+title: Happiness Hacks
 
 # Your name to show in the footer
 author: Creatrope
@@ -22,8 +22,8 @@ author: Creatrope
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - What Are Affirmations?: "https://www.everydayhealth.com/emotional-health/what-are-affirmations/"
-    - Using Affirmations: "https://www.mindtools.com/air49f4/using-affirmations"
+    - More Hacks: "https://aldohappy.com/happiness-hacks"
+    - CNN Hacks: "https://www.cnn.com/2016/01/22/health/happiness-hacks/index.html"
 
 ################
 # --- Logo --- #
@@ -48,13 +48,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "admin@affirmatron.com"
+  email: "admin@happinesshacks.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: affirmatron
+  facebook: happinesshacks
   github: creatrope
-  twitter: affirmatron
-  patreon: affirmatron
-  youtube: c/affirmatron
+  twitter: happinesshacks
+  patreon: happinesshacks
+  youtube: c/happinesshacks
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -78,7 +78,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website contains happiness hacks
 
 ###########################
 # --- General options --- #
