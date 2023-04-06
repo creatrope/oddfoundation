@@ -11,7 +11,13 @@ We also have a blog section where we share personal stories, insights, and resea
 
 Whether you're feeling down or just looking for some inspiration, we hope that our website will be a helpful resource for you. Thank you for visiting Happiness Hacks - we're thrilled to have you here
 
-<div id="random-hack"></div>
+### Random Hack
+<ul>
+<div id="hack-title"></div>
+</ul>
+<ul>
+<i><div id="hack-desc"></div></i>
+</ul>
 
 ## Resources
 
@@ -20,19 +26,8 @@ Check out our resources page for more information about happiness hacks and how 
 Thank you for visiting our site! We hope that our happiness hacks help you cultivate a positive mindset and live your best life.
 
 <script>
-  fetch('/happinesshacks.yml')
-    .then(response => response.text())
-    .then(text => {
-      const hacks = jsyaml.load(text);
-      const randomIndex = Math.floor(Math.random() * hacks.length);
-      const hack = hacks[randomIndex];
-      const hackElement = document.createElement('div');
-      hackElement.innerHTML = `
-        <h2>${hack.title}</h2>
-        <p>${hack.description}</p>
-      `;
-      document.getElementById('random-hack').appendChild(hackElement);
-    });
+const hh = {{ site.data.happinesshacks| jsonify }};
+const randomIndex = Math.floor(Math.random() * hh.length);
+document.getElementById("hack-title").innerHTML = hh[randomIndex].title;
+document.getElementById("hack-desc").innerHTML = hh[randomIndex].description;
 </script>
-
-
