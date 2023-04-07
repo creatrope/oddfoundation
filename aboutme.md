@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why affirmations?
+subtitle: Why happiness hacks?
 ---
 
 I'm interested in the way happiness hacks may affect you and the world around you.
