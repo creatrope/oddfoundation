@@ -1,15 +1,9 @@
 ---
 layout: page
-title: Welcome to Happiness Hacks
+title: Welcome to The Odd Foundation
 ---
 
-We believe that everyone deserves to be happy and live a fulfilling life. Our mission is to provide you with the tools and resources you need to achieve happiness in your daily life.
-
-On this website, you will find a collection of happiness hacks - tips, tricks, and strategies that you can use to increase your happiness and well-being. Our hacks cover a wide range of topics, including mindfulness, gratitude, positive thinking, and self-care.
-
-We also have a blog section where we share personal stories, insights, and research on the science of happiness. Our team of happiness experts and contributors are passionate about spreading happiness and helping others to live their best lives.
-
-Whether you're feeling down or just looking for some inspiration, we hope that our website will be a helpful resource for you. Thank you for visiting Happiness Hacks - we're thrilled to have you here
+The Odd Foundation is a unique and innovative organization that supports small and unconventional projects that might not receive funding from traditional sources. The foundation focuses on projects that are intriguing, creative, and unique, with a budget of under $1000. By providing financial support for these projects, the Odd Foundation aims to encourage and nurture the exploration of new ideas and innovative approaches. Whether it's an art installation, a community event, or a social experiment, the Odd Foundation is committed to funding projects that challenge the status quo and expand our understanding of the world around us. With a mission to empower and support the next generation of unconventional thinkers, the Odd Foundation is a valuable resource for anyone looking to bring their unusual and creative ideas to life.
 
 ### Random Hack
 <ul>
@@ -21,9 +15,7 @@ Whether you're feeling down or just looking for some inspiration, we hope that o
 
 ## Resources
 
-Check out our resources page for more information about happiness hacks and how to incorporate them into your daily routine.
-
-Thank you for visiting our site! We hope that our happiness hacks help you cultivate a positive mindset and live your best life.
+Check out our resources page for more information about The Odd Foundation.
 
 <script>
 const hh = {{ site.data.happinesshacks| jsonify }};
